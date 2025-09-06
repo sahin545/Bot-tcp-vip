@@ -386,7 +386,7 @@ def send_likes(uid):
                     "status": "ok",
                     "message": (
                         f"[C][B][00FF00]________________________\n"
-                        f" ✅ Foram enviados {likes_enviados}\n"
+                        f" ✅ Mandei {likes_enviados}\n"
                         f" Nome: {apelido}\n"
                         f" Likes antes: {likes_antes}\n"
                         f" Likes depois: {likes_depois}\n"
@@ -1854,7 +1854,7 @@ melhor bot do momento.......
 	                    uid = parsed_data["5"]["data"]["1"]["data"]
 	                    clients.send(
 	                    self.GenResponsMsg(
-	                        f"{generate_random_color()}جاري العمل علي الطلب", uid
+	                        f"{generate_random_color()}Processando o pedido...", uid
 	                    )
 	                )
 	                    command_split = re.split("/likes", str(data))
